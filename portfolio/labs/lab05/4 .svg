@@ -37,10 +37,17 @@
   <text x="512" y="12" font-size="12" text-anchor="start" fill="red">512</text>
 
 
-  <circle fill="black" stroke-width="5" cx="256" cy="256" r="80"/>
-  <circle fill="black" stroke-width="5" cx="198" cy="180" r="50"/>
-  <circle fill="black" stroke-width="5" cx="322" cy="180" r="50"/>
 
-  
 
+  <defs>
+    <path id="a1" d="M0 50 C150 150 100 -50 300 50" stroke="#000" fill="none" transform="translate(175,215)"></path>
+  </defs>
+  <text>
+     <textPath href="#a1">
+    </textPath>
+  </text>
+<text x="100" y="90" stroke="#0a0" style="font-size:24px;">綠豆糕 棋盤 稿紙 衣服的衣料</text>
+
+
+    
 </svg>
